@@ -48,7 +48,7 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: var(#4d5ae5);
+  color: var(--portfolio-filters);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -124,6 +124,9 @@
 /**-------------PRODUCTS-------------- */
 
 /**-------------TEAM-------------- */
+.team-item {
+  background-color: #ffffff;
+}
 .team {
   background-color: #f4f4fd;
 }
@@ -144,7 +147,7 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: var(#4d5ae5);
+  color: var(--portfolio-filters);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -152,7 +155,7 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: var(--subtitle-color);
+  color: #f4f4fd;
 }
 /**---------------PORFOLIO-NAVIGATION-------------------*/
 .body-portfolio {
@@ -185,7 +188,6 @@
   color: var(--subtitle-color);
 }
 .port-avatar-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
