@@ -6,7 +6,7 @@
   --litle-text: #434455;
 }
 
-.body-studio {
+body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: var(--litle-text);
